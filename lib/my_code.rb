@@ -22,6 +22,6 @@ def reduce(array, starter=nil)
     yield(new_value, array[i])
     i += 1 
   end 
-  
+  new_value
 end
 
