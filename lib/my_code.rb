@@ -23,6 +23,5 @@ def reduce(array, starter=nil)
     i += 1 
   end 
   new_value 
-  end 
 end
 
