@@ -19,7 +19,7 @@ def reduce(array, starter=nil)
   end
 
   while i < array.size 
-    new_value += (yield(array[i])) 
+    yield(new_value, array[i])
     i += 1 
   end 
   new_value 
